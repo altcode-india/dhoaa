@@ -21,7 +21,7 @@
  ### Ubuntu
  
  1. Install the required libraries: `$sudo apt install openjdk-8-jre libvlc-dev vlc`
- 2. Download the jar from: [dhoaa-snapshot1.0-jar](https://github.com/sarkar4540/dhoaa/blob/release/Dhoaa-1.0-SNAPSHOT.jar?raw=true)  
+ 2. Download the jar from: [dhoaa-snapshot1.0-jar](https://github.com/altcode-india/dhoaa/blob/release/Dhoaa-1.0-SNAPSHOT.jar?raw=true)  
  3. Make the jar executable: `$chmod 755 <relative/path/to/the.jar>`
  4. Open the jar file by `$./<relative/path/to/the.jar>` or `java -jar <relative/path/to/the.jar>` or by simply double clicking.
 
