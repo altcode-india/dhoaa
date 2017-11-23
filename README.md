@@ -30,6 +30,10 @@
  The project is relatively new, hence not enough testing is done on other platforms. However, java being cross-platform the jar  should run at ease.
  Install VLC and try running on other platforms.
  
+ ## For bugs and issues:
+ 
+ Create an _issue_ here.
+ 
  ## For more visit:
  
  [AltCODE](http://www.altcode.in)
