@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ani.dhoaa;
 
 import javafx.application.Application;
@@ -12,9 +8,13 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+/*
+ * Licensed under AltCode GPv1 license.
+ * http://www.altcode.in
+ */
 /**
  *
- * @author ani
+ * @author Aniruddha Sarkar
  */
 public class Dhoaa extends Application {
     

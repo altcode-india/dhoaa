@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ani.dhoaa;
 
 import java.io.Serializable;
@@ -17,9 +13,13 @@ import uk.co.caprica.vlcj.discovery.NativeDiscovery;
 import uk.co.caprica.vlcj.player.MediaPlayer;
 import uk.co.caprica.vlcj.player.MediaPlayerEventAdapter;
 
+/*
+ * Licensed under AltCode GPv1 license.
+ * http://www.altcode.in
+ */
 /**
  *
- * @author ani
+ * @author Aniruddha Sarkar
  */
 public class AudioEngine {
 

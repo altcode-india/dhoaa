@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ani.dhoaa;
 
 import com.github.axet.vget.VGet;
@@ -35,9 +31,13 @@ import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+/*
+ * Licensed under AltCode GPv1 license.
+ * http://www.altcode.in
+ */
 /**
  *
- * @author ani
+ * @author Aniruddha Sarkar
  */
 public class HomeController implements Initializable {
 
