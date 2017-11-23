@@ -45,7 +45,7 @@ public class YoutubeEngine {
         try {
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-            NodeList googleNode = dBuilder.parse(YoutubeEngine.class.getResourceAsStream("/Auth.xml")).getElementsByTagName("google").item(0).getChildNodes();
+            NodeList googleNode = dBuilder.parse(YoutubeEngine.class.getResourceAsStream("/xml/Auth.xml")).getElementsByTagName("google").item(0).getChildNodes();
             for (int i = 0; i < googleNode.getLength(); i++) {
                 System.out.print("google->\t");
                 Node youtubeN;
