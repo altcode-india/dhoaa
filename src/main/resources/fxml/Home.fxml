@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="741.0" style="-fx-background-color: #404040;" stylesheets="@../styles/bootstrap3.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ani.dhoaa.HomeController">
+    <children>
+      <ImageView fx:id="audioIcon" fitHeight="298.0" fitWidth="488.0" layoutX="254.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="searchbox" layoutX="82.0" layoutY="1.0" onAction="#searchEvent" prefHeight="38.0" prefWidth="171.0" style="-fx-background-color: #404040; -fx-text-fill: #ffffff; -fx-border-radius: 0; -fx-border-color: #ff1010;" styleClass="text-field" />
+      <ToggleButton fx:id="youtubeToggle" layoutY="1.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="38.0" prefWidth="82.0" style="-fx-border-radius: 0; -fx-border-color: #ff1010; -fx-background-color: #aa0000; -fx-text-fill: #ffffff;" text="Offline" textOverrun="CLIP" />
+      <ImageView fx:id="playIcon" fitHeight="100.0" fitWidth="100.0" layoutX="581.0" layoutY="165.0" onMouseClicked="#playButtonHandle" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="nextButton" fitHeight="65.0" fitWidth="65.0" layoutX="662.0" layoutY="117.0" onMouseClicked="#nextButtonHandle" pickOnBounds="true" preserveRatio="true" />
+      <Slider fx:id="slider" layoutX="278.0" layoutY="283.0" onMouseReleased="#sliderHandle" onTouchReleased="#sliderHandle" prefHeight="16.0" prefWidth="463.0" visible="false" />
+      <Label fx:id="title" alignment="CENTER" layoutX="254.0" prefHeight="30.0" prefWidth="426.0" style="-fx-text-fill: #ff4040; -fx-background-color: rgba(0,0,0,0.5);" text="Dhoaa">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <ProgressIndicator fx:id="progressIndicator" layoutX="255.0" layoutY="1.0" prefHeight="30.0" prefWidth="32.0" visible="false" />
+      <Button fx:id="exit" layoutX="709.0" layoutY="-1.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-border-radius: 0; -fx-border-color: #ff1010; -fx-background-color: #ff1010; -fx-text-fill: #ffffff;" text="X" />
+      <Button fx:id="minimize" layoutX="679.0" layoutY="-1.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-border-radius: 0; -fx-border-color: #ff1010; -fx-background-color: #4040ff; -fx-text-fill: #ffffff;" text="_" />
+      <Label fx:id="infoBar" layoutX="253.0" layoutY="31.0" prefHeight="16.0" prefWidth="426.0" style="-fx-background-color: rgba(255,255,255,0.5);;" textAlignment="CENTER" visible="false" />
+      <ListView id="searchlist" fx:id="searchview" layoutY="31.0" maxWidth="-Infinity" onMouseClicked="#searchboxMouseClick" prefHeight="467.0" prefWidth="253.0" style="-fx-background-color: #454545; -fx-text-fill: #ff9999;" />
+      <ListView id="playview" fx:id="playlist" layoutX="254.0" layoutY="304.0" maxWidth="-Infinity" onMouseClicked="#playlistHandle" prefHeight="195.0" prefWidth="488.0" style="-fx-background-color: #c0c0c0; -fx-text-fill: #ff6666;" />
+    </children>
+</AnchorPane>
