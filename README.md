@@ -1,15 +1,23 @@
 #Dhoaa
+
 ##What is it?
+
 Well, It is a new music player!
+
 ##Something special?
+
 Yes, ofcourse! You get all your music in hard disk and from cloud at one place.
+
 ##Let me have a look at it.
+
 Sure here are some screenshots:
 
 ![SS 1](https://github.com/sarkar4540/dhoaa/raw/release/Screenshot%20from%202017-11-23%2008-12-36.png)
 
 ![SS 2](https://github.com/sarkar4540/dhoaa/raw/release/Screenshot%20from%202017-11-23%2008-13-25.png)
+
 ##Okay, let me test it out. How can I?
+
 ###Ubuntu
 
 1. Install the required libraries: `$sudo apt install openjdk-8-jre libvlc-dev vlc`
